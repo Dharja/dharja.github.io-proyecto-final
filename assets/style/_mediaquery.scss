@@ -23,8 +23,14 @@
 }
 
 
-/*responsive en "sobre mí"*/
+/*responsive*/
 @media only screen and (min-width: 1024px) {
+
+  //menú
+
+  #titulo{
+    padding-left: 70px;
+  }
 
   #contenedor {
     margin: 0% 0% 0%;
@@ -48,10 +54,35 @@
   }
 
 
+  //index
+
+  .titulo__{
+    font-size: 100px;
+  }
+
+  #texto-secundario{
+    font-size: 30px;
+  }
+
+  #dibujo-inicio{
+    width: 600px;
+  }
+
+
+  //sobre mi
+  .info__contenedor{
+    margin: 150px;
+    padding-left: 20px;
+  }
+
+
+  //contacto
   #icon {
     width: 200px;
   }
 
+
+  //galería
   .container-text-center{
     padding-bottom: 10%;
     width: 100%;
@@ -78,7 +109,7 @@
     justify-content:space-around;
     align-items: center;
     align-content:space-between;
-    gap:50px
+    gap:50px;
     
 
   }  
@@ -93,10 +124,15 @@
     width: $size-dibujos;
     border-radius: $borde;
   }
-    
 
 
+  //footer contacto
 
+  #footer_contacto{
+    p{
+      color: $color-contacto;
+    }
+  }
     
 }
 

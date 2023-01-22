@@ -22,7 +22,6 @@ body {
   
 #titulo {
   font-size: 40px;
-  padding-left: 60px;
   color: $color-titulo;
   font-family: 'Quicksand', sans-serif;
 }
@@ -65,13 +64,13 @@ nav {
   padding-bottom: 10%;
 
   .titulo__{
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
   }
 
   #texto-secundario{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: $color-auxiliar;
   }
   
@@ -81,7 +80,7 @@ nav {
     align-items: center;
 
    #dibujo-inicio{
-    width: 600px;
+    width: 300px;
   } 
   }
   
@@ -92,11 +91,10 @@ nav {
 /*sobre mi*/
 
 .info__contenedor{
-  margin: 150px;
   padding-bottom: 10%;
   padding-top: 20px;
   text-align: justify;
-  padding-left: 20px;
+  padding-left: 10px;
 
 }
   
@@ -212,6 +210,3 @@ img{
   border-radius: $borde;
 }
   
-
-
-
