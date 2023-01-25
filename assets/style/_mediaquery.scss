@@ -56,12 +56,17 @@
 
   //index
 
+  .container-fluid{
+    background-color: $color-nav;
+    text-align: center;
+  }
+
   .titulo__{
     font-size: 100px;
   }
 
   #texto-secundario{
-    font-size: 30px;
+    font-size: 40px;
   }
 
   #dibujo-inicio{
@@ -83,23 +88,7 @@
 
 
   //galería
-  .container-text-center{
-    padding-bottom: 10%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows:3fr 3fr 3fr ;
-    align-items: center;
-    justify-items:stretch;
-    gap: 20px;
-    grid-template-areas: 
-
-    "row"
-    "row"
-    "row"
-    ;
-    
-  }
+  
 
   .row{
     width: auto;
